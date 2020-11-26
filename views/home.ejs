@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title><%=title%></title>
 </head>
+
 <body>
+    <% if(locals.user) {%>
+    <p><a href="/user/profile"><%=user.name%></a></p>
+    <p><a href="/user/sign-out">Sign-out</a></p>
+    <%}else{%>
     <a href="/user/sign-up">sign up</a>
     <a href="/user/sign-in">sign in</a>
-    
+    <%}%>
+   
+
 </body>
+
 </html>
