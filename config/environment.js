@@ -9,15 +9,14 @@ const development = {
         port: '587',
         secure: 'false',
         auth: {
-            user: 'nitishyadav169@gmail.com',
-            pass: 'nitish169'
+            user: 'enter your username',
+            pass: 'enter your password'
         }
     },
-    google_client_id: '782606383375-dmbt4r1rg3suvpa4g6vthakbukltfahj.apps.googleusercontent.com',
-    google_client_secret: 'LiZgkiSNFanadzzP7J5vSFc8',
+    google_client_id: 'enter your client id',
+    google_client_secret: 'enter your client secret',
     google_callback_url: 'http://localhost:8000/user/auth/google/callback',
     mongoose_field_encryption_secret_key: 'some secret key'
-
 }
 
 const production = {
