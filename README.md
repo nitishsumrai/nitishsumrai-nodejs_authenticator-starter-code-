@@ -29,7 +29,7 @@ npm install
 7. Configure mongoose field encryption by adding a secret key in the `config\environment.js` file
 
 
-8.  input the command `node index,js` on terminal
+8.  input the command `node index.js` on terminal
 
 9. Pat yourself in the back for making it so far!!
 
