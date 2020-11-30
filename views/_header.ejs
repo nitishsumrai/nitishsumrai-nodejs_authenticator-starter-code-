@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/css/_header.css">
+<header>
+    <div id="navbar-container">
+        <ul id="navbar-list">
+            <% if(locals.user) {%>
+            <li><a href="/user/sign-out">Sign-out</a></li>
+            <li><a href="/user/get-new-password">Reset Password</a></li>
+            <li><a href="/user/profile"><%=user.name%></a></li>
+            <%}else{%>
+            <li><a href="/user/sign-in">Sign-in</a></li>
+            <li><a href="/user/sign-up">Sign-up</a></li>
+            <%}%>
+        </ul>
+</div>
+</header>
